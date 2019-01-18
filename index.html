@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+</head>
+<body>
+    <h1>Conditional TIC TAC TOE</h1>
+    <div class="board splash"> 
+        <div class= "flexContainer1">
+            <div class="box 1"> My mother would kill me, if...</div>
+            <div class="box 2"></div>
+            <div class="box 3"></div>
+        </div>
+
+        <div class= "flexContainer2">
+            <div class="box 4"></div>
+            <div class="box 5"> If I were a billionaire,...</div>
+            <div class="box 6"></div>
+        </div>
+
+        <div class= "flexContainer3">
+            <div class="box 7"></div>
+            <div class="box 8"></div>
+            <div class="box 9"></div>
+        </div>
+    </div>
+
+
+    <div class="score">
+        <span class=firstPlayerScore></span>
+        <span class=secondPlayerScore></span>
+    </div>
+
+    <div class="playersNameForm">
+        <input class="playerOneName-input" type="text" placeholder="Player one's name">
+        <label id="playerOneLabel"></label>
+        <input class="playerTwoName-input" type="text" placeholder="Player two's name">
+        <label id="playerTwoLabel"></label>
+    </div>
+    <div class="playersName">
+        <span id="playerOneName"></span>
+        <span id="playerTwoName"></span>
+    </div>
+
+    <div class="button">
+    <button class="start-btn">Start</button>
+    <button class="startAgain-btn">Start again</button>
+    <button class="myo-btn">Make your own</button>
+    </div>
+    <script src="tictactoe.js"></script>
+    
+</body>
+</html>
